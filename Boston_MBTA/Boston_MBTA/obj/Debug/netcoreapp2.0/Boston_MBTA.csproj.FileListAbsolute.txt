@@ -1,0 +1,11 @@
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/bin/Debug/netcoreapp2.0/Boston_MBTA.deps.json
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/bin/Debug/netcoreapp2.0/Boston_MBTA.runtimeconfig.json
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/bin/Debug/netcoreapp2.0/Boston_MBTA.runtimeconfig.dev.json
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/bin/Debug/netcoreapp2.0/Boston_MBTA.dll
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/bin/Debug/netcoreapp2.0/Boston_MBTA.pdb
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.csprojResolveAssemblyReference.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.csproj.CoreCompileInputs.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.AssemblyInfoInputs.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.AssemblyInfo.cs
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.dll
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/Debug/netcoreapp2.0/Boston_MBTA.pdb

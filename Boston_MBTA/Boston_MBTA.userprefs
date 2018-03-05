@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{483D8099-BE4D-418F-A0BC-3326C88C50E9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Station.Library.Tests/UnitTest1.cs">
+    <Files>
+      <File FileName="Boston_MBTA/Program.cs" Line="1" Column="1" />
+      <File FileName="Boston_MBTA/station.cs" Line="1" Column="1" />
+      <File FileName="Train.Library/train.cs" Line="8" Column="2" />
+      <File FileName="Station.Library/Class1.cs" Line="7" Column="1" />
+      <File FileName="Train.Library.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Station.Library.Tests/UnitTest1.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Boston__MBTA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
