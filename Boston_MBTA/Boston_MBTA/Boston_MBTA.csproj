@@ -8,4 +8,8 @@
   <ItemGroup>
     <Compile Remove="station.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Station.Library\Station.Library.csproj" />
+    <ProjectReference Include="..\Train.Library\Train.Library.csproj" />
+  </ItemGroup>
 </Project>

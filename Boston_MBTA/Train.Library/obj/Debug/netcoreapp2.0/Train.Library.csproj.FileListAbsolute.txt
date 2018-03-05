@@ -1,0 +1,9 @@
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/bin/Debug/netcoreapp2.0/Train.Library.deps.json
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/bin/Debug/netcoreapp2.0/Train.Library.dll
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/bin/Debug/netcoreapp2.0/Train.Library.pdb
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.csprojResolveAssemblyReference.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.csproj.CoreCompileInputs.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.AssemblyInfoInputs.cache
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.AssemblyInfo.cs
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.dll
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/obj/Debug/netcoreapp2.0/Train.Library.pdb
