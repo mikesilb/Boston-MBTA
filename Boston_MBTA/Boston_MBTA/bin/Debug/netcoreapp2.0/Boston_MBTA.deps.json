@@ -7,14 +7,38 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Boston_MBTA/1.0.0": {
+        "dependencies": {
+          "Station.Library": "1.0.0",
+          "Train.Library": "1.0.0"
+        },
         "runtime": {
           "Boston_MBTA.dll": {}
+        }
+      },
+      "Station.Library/1.0.0": {
+        "runtime": {
+          "Station.Library.dll": {}
+        }
+      },
+      "Train.Library/1.0.0": {
+        "runtime": {
+          "Train.Library.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Boston_MBTA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Station.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Train.Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

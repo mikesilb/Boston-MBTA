@@ -196,6 +196,26 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Station.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Station.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Station.Library.dll": {}
+        }
+      },
+      "Train.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Train.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Train.Library.dll": {}
+        }
       }
     }
   },
@@ -656,11 +676,23 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Station.Library/1.0.0": {
+      "type": "project",
+      "path": "../Station.Library/Station.Library.csproj",
+      "msbuildProject": "../Station.Library/Station.Library.csproj"
+    },
+    "Train.Library/1.0.0": {
+      "type": "project",
+      "path": "../Train.Library/Train.Library.csproj",
+      "msbuildProject": "../Train.Library/Train.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Station.Library >= 1.0.0",
+      "Train.Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -674,13 +706,13 @@
       "projectName": "Boston_MBTA",
       "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/Boston_MBTA.csproj",
       "packagesPath": "/Users/michaelsilberstein/.nuget/packages/",
-      "outputPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj/",
+      "outputPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Boston_MBTA/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/michaelsilberstein/.nuget/NuGet/NuGet.Config"
+        "/Users/michaelsilberstein/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -690,7 +722,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library/Station.Library.csproj": {
+              "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library/Station.Library.csproj"
+            },
+            "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj": {
+              "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -703,8 +742,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
