@@ -14,3 +14,5 @@
 /Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library.Tests/obj/Debug/netcoreapp2.0/Station.Library.Tests.AssemblyInfo.cs
 /Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library.Tests/obj/Debug/netcoreapp2.0/Station.Library.Tests.dll
 /Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library.Tests/obj/Debug/netcoreapp2.0/Station.Library.Tests.pdb
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library.Tests/bin/Debug/netcoreapp2.0/Train.Library.dll
+/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library.Tests/bin/Debug/netcoreapp2.0/Train.Library.pdb

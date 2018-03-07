@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Train.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Train.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Train.Library.dll": {}
+        }
       }
     }
   },
@@ -656,11 +666,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Train.Library/1.0.0": {
+      "type": "project",
+      "path": "../Train.Library/Train.Library.csproj",
+      "msbuildProject": "../Train.Library/Train.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Train.Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -690,7 +706,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj": {
+              "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
