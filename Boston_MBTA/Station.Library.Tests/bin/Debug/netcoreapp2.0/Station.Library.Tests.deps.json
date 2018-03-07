@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170628-02",
           "Station.Library": "1.0.0",
+          "Train.Library": "1.0.0",
           "xunit": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
@@ -1026,8 +1027,16 @@
         }
       },
       "Station.Library/1.0.0": {
+        "dependencies": {
+          "Train.Library": "1.0.0"
+        },
         "runtime": {
           "Station.Library.dll": {}
+        }
+      },
+      "Train.Library/1.0.0": {
+        "runtime": {
+          "Train.Library.dll": {}
         }
       }
     }
@@ -1564,6 +1573,11 @@
       "hashPath": "xunit.runner.visualstudio.2.2.0.nupkg.sha512"
     },
     "Station.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Train.Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

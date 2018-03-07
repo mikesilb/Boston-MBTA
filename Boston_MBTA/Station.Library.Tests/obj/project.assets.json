@@ -1663,11 +1663,24 @@
       "Station.Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Train.Library": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Station.Library.dll": {}
         },
         "runtime": {
           "bin/placeholder/Station.Library.dll": {}
+        }
+      },
+      "Train.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Train.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Train.Library.dll": {}
         }
       }
     }
@@ -5619,6 +5632,11 @@
       "type": "project",
       "path": "../Station.Library/Station.Library.csproj",
       "msbuildProject": "../Station.Library/Station.Library.csproj"
+    },
+    "Train.Library/1.0.0": {
+      "type": "project",
+      "path": "../Train.Library/Train.Library.csproj",
+      "msbuildProject": "../Train.Library/Train.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5626,6 +5644,7 @@
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
       "Station.Library >= 1.0.0",
+      "Train.Library >= 1.0.0",
       "xunit >= 2.2.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
@@ -5660,6 +5679,9 @@
           "projectReferences": {
             "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library/Station.Library.csproj": {
               "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Station.Library/Station.Library.csproj"
+            },
+            "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj": {
+              "projectPath": "/Users/michaelsilberstein/launch_academy/reviewing_phase/C#/Boston_MBTA/Boston_MBTA/Train.Library/Train.Library.csproj"
             }
           }
         }
