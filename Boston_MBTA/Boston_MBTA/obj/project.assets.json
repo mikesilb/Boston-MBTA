@@ -200,6 +200,9 @@
       "Station.Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Train.Library": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Station.Library.dll": {}
         },
