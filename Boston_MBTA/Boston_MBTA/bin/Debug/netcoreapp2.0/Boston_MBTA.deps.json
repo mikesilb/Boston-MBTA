@@ -16,6 +16,9 @@
         }
       },
       "Station.Library/1.0.0": {
+        "dependencies": {
+          "Train.Library": "1.0.0"
+        },
         "runtime": {
           "Station.Library.dll": {}
         }

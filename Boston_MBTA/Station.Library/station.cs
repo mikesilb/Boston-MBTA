@@ -29,7 +29,7 @@ namespace Station.Library
         {
             return _associatedTrains;
         }
-        public void SetStationList(List<train> associatedTrains)
+        public void SetAssociatedTrains(List<train> associatedTrains)
         {
             _associatedTrains = associatedTrains;
         }
