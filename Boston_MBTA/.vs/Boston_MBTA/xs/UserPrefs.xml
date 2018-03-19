@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{483D8099-BE4D-418F-A0BC-3326C88C50E9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Station.Library.Tests/stationTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Train.Library.Tests/trainTests.cs">
     <Files>
-      <File FileName="Train.Library/train.cs" Line="53" Column="10" />
+      <File FileName="Boston_MBTA/Program.cs" Line="1" Column="1" />
       <File FileName="Station.Library/station.cs" Line="1" Column="1" />
       <File FileName="Station.Library.Tests/stationTests.cs" Line="1" Column="1" />
-      <File FileName="Boston_MBTA/Program.cs" Line="14" Column="2" />
-      <File FileName="Train.Library.Tests/trainTests.cs" Line="35" Column="50" />
+      <File FileName="Train.Library/train.cs" Line="1" Column="1" />
+      <File FileName="Train.Library.Tests/trainTests.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,6 +15,4 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Boston__MBTA PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Train.Library.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Station.Library.Tests PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

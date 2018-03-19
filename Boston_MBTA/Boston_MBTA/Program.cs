@@ -119,6 +119,17 @@ namespace Boston_MBTA
             List<train> WellingtonTrains = new List<train> { OrangeLine };
             List<train> MaldenCenterTrains = new List<train> { OrangeLine };
             List<train> OakGroveTrains = new List<train> { OrangeLine };
+            List<train> BowdoinTrains = new List<train> { BlueLine };
+            List<train> GovernmentCenterTrains = new List<train> { BlueLine, GreenLineC, GreenLineD, GreenLineE };
+            List<train> AquariumTrains = new List<train> { BlueLine };
+            List<train> MaverickTrains = new List<train> { BlueLine };
+            List<train> AirportTrains = new List<train> { BlueLine };
+            List<train> WoodIslandTrains = new List<train> { BlueLine };
+            List<train> OrientHeightsTrains = new List<train> { BlueLine };
+            List<train> SuffolkDownsTrains = new List<train> { BlueLine };
+            List<train> BeachmontTrains = new List<train> { BlueLine };
+            List<train> RevereBeachTrains = new List<train> { BlueLine };
+            List<train> WonderlandTrains = new List<train> { BlueLine };
 
             station ForestHills = new station("Forest Hills", ForestHillsTrains);
             station GreenStreet = new station("Green Street", GreenStreetTrains);
@@ -140,12 +151,18 @@ namespace Boston_MBTA
             station Wellington = new station("Wellington", WellingtonTrains);
             station MaldenCenter = new station("Malden Center", MaldenCenterTrains);
             station OakGrove = new station("Oak Grove", OakGroveTrains);
+            station Bowdoin = new station("Bowdoin", BowdoinTrains);
+            station GovernmentCenter = new station("Government Center", GovernmentCenterTrains);
+            station Aquarium = new station("Aquarium", AquariumTrains);
+            station Maverick = new station("Maverick", MaverickTrains);
+            station Airport = new station("Airport", AirportTrains);
+            station WoodIsland = new station("Wood Island", WoodIslandTrains);
+            station OrientHeights = new station("Orient Heights", OrientHeightsTrains);
+            station SuffolkDowns = new station("Suffolk Downs", SuffolkDownsTrains);
+            station Beachmont = new station("Beachmont", BeachmontTrains);
+            station RevereBeach = new station("Revere Beach", RevereBeachTrains);
+            station Wonderland = new station("Wonderland", WonderlandTrains);
 
-            //List<string> BlueLine_stations = new List<string>()
-            //{
-            //    "Wonderland", "Revere Beach", "Beachmont", "Suffolk Downs", "Orient Heights Yard", "Orient Heights",
-            //    "Wood Island", "Maverick", "Aquarium", "State", "Government Center", "Bowdoin"
-            //};
 
             List<station> OrangeLine_stations = new List<station>()
             {
@@ -153,6 +170,19 @@ namespace Boston_MBTA
                 MassachusettsAvenue, BackBay, TuftsMedicalCenter, Chinatown, DowntownCrossing,
                 StateStreet, Haymarket, NorthStation, CommunityCollege, SullivanSquare, Assembly,
                 Wellington, MaldenCenter, OakGrove
+            };
+
+            List<station> BlueLine_stations = new List<station>()
+            {
+                Bowdoin, GovernmentCenter, StateStreet, Aquarium, Maverick, Airport, WoodIsland, OrientHeights, 
+                SuffolkDowns,  Beachmont, RevereBeach, Wonderland   
+            };
+
+
+            Dictionary<train, List<station>> StationList = new Dictionary<train, List<station>>()
+            {
+                {OrangeLine, OrangeLine_stations},
+                {BlueLine, BlueLine_stations}
             };
 
         }
